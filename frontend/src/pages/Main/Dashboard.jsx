@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
@@ -24,10 +25,11 @@ const Dashboard = () => {
     // Controls whether Create New modal is visible
     const [showCreateModal, setshowCreateModal] = useState(false);
 
+    const navigate = useNavigate();
+
     // Stores selected create type
     const [CreateType, setCreateType] = useState(null);
 
-    const navigate = useNavigate();
 
     const checkSession = async () => {
 
@@ -44,7 +46,7 @@ const Dashboard = () => {
             } catch (error) {
 
                 if (error.response?.status === 401) {
-                    // navigate("/login");
+                    navigate("/login");
                 } else {
                     console.log("Server unreachable");
                 }
