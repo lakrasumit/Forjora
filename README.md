@@ -104,20 +104,6 @@ Upcoming:
 - Testing
 - Deployment
 
----
-
-## Team
-
-| Member | Responsibility |
-|---------|----------------|
-| Nikhil Kumar | Project Lead & Frontend Manager |
-| Member 2 | Frontend Developer |
-| Member 3 | Backend Developer |
-| Member 4 | AI & Integrations |
-| Member 5 | Database, Testing & Deployment |
-
----
-
 ## Project Motto
 
 > **Build Together. Learn Together. Grow Together.**
